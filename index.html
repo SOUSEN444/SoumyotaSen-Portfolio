@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <title>Soumyota Sen Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Soumyota Sen</h1>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero section">
+            <div class="container hero-center">
+                <div class="hero-content">
+                    <h2>Soumyota Sen</h2>
+                    <a href="#contact" class="cta-button">Let's Connect</a>
+                </div>
+                <div class="hero-visual">
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section-title">Who Am I?</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hi there! My name is Soumyota Sen and I am a third year student at the University of North Carolina at Charlotte double majoring in Computer Science, with a concentration in Data Science, and Economics. I have always had a keen interest towards technology and its integration into society.</p>
+                        
+                        <p>My skills lie in Python and utlizing this language to turn raw insights into actionable data. I also have skills in HTML5, which I use to create frontend web applications, in addition to experience with SQL and Java. I am always keen towards continuously learning and enhancing my technological expertise, and I hope to keep progressing in doing so through these projects.</p>
+                        
+                        <p>I am particularly interested in projects that involve data visualization with social impact applications. My goal is to work with innovative companies that value creativity, collaboration, and making a positive impact on the world.</p>
+                        
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>Technical Skills</h3>
+                                <p>Python, Java, HTML5, Matplotlib, SQL, Node.js, Chart.js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong> sensoumyotaa@gmail.com
+                        </div>
+                        <div class="contact-item">
+                            <strong>Phone:</strong> (217) 722-5117
+                        </div>
+                        <div class="contact-item">
+                            <strong>Location:</strong> Charlotte, North Carolina
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <h3>Send me a message</h3>
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/SOUSEN444" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/soumyota-sen-247002243/" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i> LinkedIn
+                    </a>
+                </div>
+                <p class="copyright">&copy; 2025 Soumyota Sen. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sen's Coffee House</title>
+        <link rel="icon" type="image/x-icon" href="Image/favicon.ico">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, Element, Tag"> 
+        <meta name="author" content="Soumyota Sen">
+
+    </head>
+    <body>
+        <header>
+            <h1>Sen's Coffee House</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#reservation">Reservation</a></li>
+                </ul>
+            </nav>
+            <img src="Image/hero.jpg" alt="Niner Coffee House interior with cozy seating and coffee bar" width="1600" height="727">
+        </header>
+
+        </main>
+            <section id="about">
+                <h2>About Sen's Coffee House</h2>
+                <p>Welcome to Sen's Coffee House. We are a gourmet coffee shop that serves your favorite types of coffee and desserts!</p>
+                <ul>
+                    <li>Specialty Coffee</li>
+                    <li>Gourmet Desserts</li>
+                    <li>Music and Poetry Readings</li>
+                    <li>Open Mic Night</li>
+                </ul>
+            </section>
+
+            <section id="menu">
+                <h2>Our Menu</h2>
+                <table>
+                    <caption>Coffee and Desserts Selections</caption>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">Cold Beverages</th>
+                        <td>Cold Brew</td>
+                        <td>$3.75</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Latte</td>
+                        <td>$4.25</td>
+                    </tr>
+                    <tr>
+                        <td>Frappuccino</td>
+                        <td>$4.50</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Coffee</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">Hot Beverages</th>
+                        <td>Café Latte</td>
+                        <td>$3.75</td>
+                    </tr>
+                    <tr>
+                        <td>Caramel Macchiato</td>
+                        <td>$4.25</td>
+                    </tr>
+                    <tr>
+                        <td>Skinny Mocha</td>
+                        <td>$4.00</td>
+                    </tr>
+                    <tr>
+                        <td>Hot Coffee</td>
+                        <td>$3.25</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="4">Desserts</th>
+                        <td>Croissant</td>
+                        <td>$1.75</td>
+                    </tr>
+                    <tr>
+                        <td>Muffin</td>
+                        <td>$2.25</td>
+                    </tr>
+                    <tr>
+                        <td>Cupcake</td>
+                        <td>$3.50</td>
+                    </tr>
+                    <tr>
+                        <td>Cheesecake</td>
+                        <td>$5.00</td>
+                    </tr>
+                </table>
+                <p style="font-size: smaller;">* Almond, Coconut and Soy milk are available</p>
+            </section>
+
+            <section id="reservation">
+                <h2>Reserve a Table</h2>
+            
+                <form>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                
+                    <div class="form-row">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                
+                    <div class="form-row">
+                        <label for="datetime">Date/Time</label>
+                        <input type="datetime-local" id="datetime" name="datetime" required>
+                    </div>
+                
+                    <div class="form-row">
+                        <label for="table-size">Table size</label>
+                        <select id="table-size" name="table-size">
+                            <option value="2-person">2-person table</option>
+                            <option value="4-person">4-person table</option>
+                            <option value="6-person">6-person table</option>
+                            <option value="8-person">8-person table</option>
+                        </select>
+                    </div>
+                
+                    <fieldset>
+                        <legend>Location</legend>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="outdoors" name="seating" value="outdoors">
+                                <label for="outdoors">Outdoors</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="indoors" name="seating" value="indoors">
+                                <label for="indoors">Indoors</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                
+                    <div class="special-requests">
+                        <label for="special-request">Special Requests</label>
+                        <textarea id="special-request" name="special-request"></textarea>
+                    </div>
+                
+                    <button type="submit">Reserve</button>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>&copy;2022 Sen's Coffee House. All rights reserved.</p>
+            <p>Location: 927 Pine Ridge Lane, Charlotte, NC 28211.</p>
+            <p>Email: <a href="mailto:senscoffee@gmail.com">senscoffee@gmail.com</a></p>
+            <p>Phone: <a href="tel:7041235689">(704)123-5689</a></p>
+        </footer>
+    </body>
+</html>
